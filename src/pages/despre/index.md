@@ -1,7 +1,7 @@
 ---
 templateKey: 'despre-page'
 path: /despre
-title: About our values
+title: Despre our values
 ---
 ### Shade-grown coffee alex edited
 Coffee is a small tree or shrub that grows in the forest understory in its wild form, and traditionally was grown commercially under other trees that provided shade. The forest-like structure of shade coffee farms provides habitat for a great number of migratory and resident species.
