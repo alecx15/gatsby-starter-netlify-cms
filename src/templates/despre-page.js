@@ -31,7 +31,7 @@ DespreAboutPageTemplate.propTypes = {
   contentComponent: PropTypes.func,
 }
 
-const AboutPage = ({ data }) => {
+const DespreAboutPage = ({ data }) => {
   const { markdownRemark: post } = data
 
   return (
