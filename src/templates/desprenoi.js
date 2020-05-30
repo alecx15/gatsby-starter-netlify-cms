@@ -25,7 +25,7 @@ export const AboutPageTemplate = ({ title, content, contentComponent }) => {
   )
 }
 
-AboutPageTemplate.propTypes = {
+DespreAboutPageTemplate.propTypes = {
   title: PropTypes.string.isRequired,
   content: PropTypes.string,
   contentComponent: PropTypes.func,
@@ -36,7 +36,7 @@ const AboutPage = ({ data }) => {
 
   return (
     <Layout>
-      <AboutPageTemplate
+      <DespreAboutPageTemplate
         contentComponent={HTMLContent}
         title={post.frontmatter.title}
         content={post.html}
@@ -45,14 +45,14 @@ const AboutPage = ({ data }) => {
   )
 }
 
-AboutPage.propTypes = {
+DespreAboutPage.propTypes = {
   data: PropTypes.object.isRequired,
 }
 
-export default AboutPage
+export default DespreAboutPage
 
-export const aboutPageQuery = graphql`
-  query AboutPage($id: String!) {
+export const despreaboutPageQuery = graphql`
+  query DespreAboutPage($id: String!) {
     markdownRemark(id: { eq: $id }) {
       html
       frontmatter {
